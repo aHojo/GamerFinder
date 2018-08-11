@@ -1,0 +1,24 @@
+{
+  "name": "gamerfinder",
+  "version": "1.0.0",
+  "description": "Gamer Finder is a one stop shop to find your gaming companion. No longer do you need to browse countless discord channels to find your one friend. (This is just a prototype. )",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amh5366/GamerFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amh5366/GamerFinder/issues"
+  },
+  "homepage": "https://github.com/amh5366/GamerFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
