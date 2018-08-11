@@ -11,9 +11,9 @@ router.get("/survey", function (req, res) {
 
 router.get("*", function (req, res) {
     console.log(`We entered  the route route`);
-    
+
     res.sendFile(path.join(__dirname, "../public/", "home.html"));
-    
+
 });
 
 module.exports = router;
